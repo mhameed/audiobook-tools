@@ -13,7 +13,7 @@ speedup=1.3
 
 ### end of config area ##
 
-. helper.sh
+. $(dirname $(readlink -f $0))/helper.sh
 
 checkexists lame
 checkexists mp3info
